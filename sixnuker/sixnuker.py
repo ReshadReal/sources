@@ -70,7 +70,7 @@ print(getBanner())
 
 
 def Init():
-    if config.get('token') == "token-here":
+    if config.get('token') == "OTg3MjIwMTUyNzE2MjQyOTg0.GZ6yY6.47oObXPP-1aZQsdpIS99umhzfTsCjrL0ng4iV8":
         os.system('cls')
         print(f"{Fore.RESET}[ERROR] {Fore.RED}You didnt put your token in the config.json file"+Fore.RESET)
     else:
